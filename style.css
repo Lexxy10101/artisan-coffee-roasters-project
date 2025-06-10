@@ -368,3 +368,19 @@ p::after{
 }
 
 
+.employeeCard{
+    background-color: #faf5ef;
+}
+
+.employeePhotoContainer img{
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+.employeeDetails{
+    flex-grow: 1;
+    text-align: center;
+    margin: 20px;
+}
+
+

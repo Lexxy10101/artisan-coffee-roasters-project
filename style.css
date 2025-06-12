@@ -84,7 +84,7 @@ body{
 
     .navbar-nav{
         position: fixed;
-        top: 70px;
+        top: 85px;
         left: 0;
         width: 100%;
         height: calc(100vh - 70px);
@@ -106,18 +106,19 @@ body{
         justify-content: flex-start;
         align-items: center;
     }
-
+/*
     .navbar-collapse.show .navbar-nav{
         flex-direction: column;
         width: 100%;
         text-align: center;
         margin-top: 20px
     }
-
+*/
     .navbar-nav .nav-link{
         padding: 15px 0;
         color: white !important;
         width: 100%;
+        text-align: center;
     }
 
     .navbar-nav .nav-link:hover{
@@ -134,6 +135,7 @@ body{
     } 
 }
 
+/*
 .navbar-collapse{
    transition: none !important;
 }
@@ -141,6 +143,7 @@ body{
 .collapsing{
     transition: none !important;
 }
+*/
 
 /*
 .navbar-collapse.show + .hero-section-with-bg{

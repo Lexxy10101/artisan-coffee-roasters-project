@@ -12,27 +12,4 @@ document.addEventListener('DOMContentLoaded', function(){
     }
 });
 
-//Footer
-// Initialization for ES Users
-import { Ripple, initMDB } from "mdb-ui-kit";
 
-initMDB({ Ripple });
-
-//Newsletter
-document.addEventListener('DOMContentLoaded', function(){
-    const form = document.getElementById('newsletterForm');
-    const emailInput = document.getElementById('emailInput');
-    const emailError = document.getElementById('emailError');
-
-    form.addEventListener('submit', function(event){
-        event.preventDefault();
-        if(!emailInput.value.trim() || !emailInput.value.includes('.')){
-            emailError.style.display='block';
-            emailInput.classList.add('is-invalid');
-        }else{
-            emailError.style.display='none';
-            emailInput.classList.add('is-valid');
-            form.submit();
-        }
-    });
-});

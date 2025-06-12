@@ -265,43 +265,6 @@ footer{
 }
 
 
-#newsletterForm{
-    max-width: 700px;
-    margin: 0 auto;
-}
-
-.form-control{
-    border: none;
-    border-radius: 0;
-    outline: none;
-    box-shadow: none;
-}
-
-.form-control:focus{
-    border: none;
-    border-radius: 0;
-    outline: none;
-    box-shadow: none;
-}
-
-.subscribe{
-    background: #ffff;
-    color: #000000d5;
-    outline: none;
-    border-radius: 0;
-}
-
-.subscribe:hover{
-    background-color: rgba(135, 63, 15, 0.632);
-    color: #f8f9fad5;
-    border: none;
-}
-
-.subscribe:focus{
-    outline: none;
-    border: none;
-}
-
 .socialMedia{
     color: #f8f9fad5;
 }
@@ -315,38 +278,28 @@ footer{
 
 .contact{
     margin-top: 150px;
-    margin-left: 50px;
 }
-.contactForm{
-   margin: 60px;
-}
-.form-control{
-    border: 1px solid lightgray;
-    max-width:500px ;
-}
-
 
 .form-control:focus{
-    border: 1px solid lightgrey;
-    box-shadow: grey;
-    color: #212529;
+    border: 1px solid lightgray;
+    box-shadow: 0 0 0 0.25rem rgba(108,117,125,0.25);
 }
 
-.btnContact{
-   background-color: #212529;
-   margin-bottom: 50px;
+.btn.btn-dark{
+    background-color: #212529;
+    border-color: #212529;
+    color: white;
 }
 
-.btnContact:hover{
-    background-color: rgba(57, 24, 2, 0.632);
-    color: #f8f9fad5;
-    border: none;
+.btn.btn-dark:hover{
+    background-color: rgb(77, 32, 4);
+    border-color: rgb(77, 32, 4);
+    color: white;
 }
-
 
 /* About us page */
 .aboutUs{
-    margin-top: 120px;
+    margin-top: 150px;
 }
 
 .imgHistory{
